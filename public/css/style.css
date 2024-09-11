@@ -1,0 +1,215 @@
+body{
+    background-color: #9dae68;
+    filter: brightness(1);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center; /* Başlıkları ortala */
+}
+@keyframes colorChange {
+    0% { background-color: #9dae68; } /* Başlangıç rengi */
+    50% { background-color: #8a9d43; } /* Orta renk (daha hafif bir yeşil) */
+    100% { background-color: #9dae68; } /* Bitiş rengi */
+}
+  
+body {
+    animation: colorChange 9s ease-in-out infinite; /* Daha uzun bir süre ve daha pürüzsüz geçiş */
+}
+.nav-item>a{
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.nav-item>a:hover{
+    background-color: #555555;
+}
+  
+.navbar-nav{
+    margin: auto;
+
+}
+.navbar-brand img {
+    transition: transform 0.3s ease; /* Logo üzerine gelindiğinde küçülüp büyüyebilir */
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right:35px;
+}
+
+.carousel-item{
+    height: 800px;
+}
+#carouselExampleIndicators{
+    height: 400px;
+    max-height: 400px;
+}
+.card-body {
+    max-height: 450px;
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Geçiş yapılacak özellikler */
+    height: 595px;
+}
+
+.card {
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Kartın geçiş özellikleri */
+    max-height: 475px;
+    margin-bottom: 20px; /* Kartlar arasındaki dikey boşluk */
+    
+
+}
+@media (max-width: 768px) {
+    .card {
+      margin: 0 0 20px 0; /* Ekran 768 pikselden küçük olduğunda kartların arasındaki boşlukları düzenleyin */
+    }
+  }
+
+.card:hover {
+    background-color: #eaffd9; /* Arka plan rengini değiştirme */
+    transform: scale(1.02); /* Hafif bir büyüme efekti, 1.05 yerine 1.02 */
+}
+@media (max-width: 768px) {
+    .contact-info, .directions, .social-media, .map-info {
+      text-align: center;
+      margin: 0 auto;
+    }
+}
+.card-text{
+    text-align:left;
+
+}
+
+#info{
+    margin-left: 0px;
+    text-align: left;
+}
+#mapinfo{
+    margin-top: 5rem;
+}
+.social-media>a>img{
+    border-radius: 5px;
+
+}
+h4{
+    text-decoration: underline;
+}
+.col-sm-5{
+    margin-right:50px;
+}
+
+.bg-dark{
+    height: 136px;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+}
+
+footer p, footer h5, footer a {
+    margin: 0; /* İçeriklerdeki boşlukları küçült */
+}
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: 300px; /* Daha küçük cihazlar için yüksekliği azaltabilirsiniz */
+    }
+}
+
+/*about section*/
+
+.vision {
+    width: 350px; /* Boyutu biraz küçülttüm, daha kompakt bir görünüm için */
+    height: auto; /* Yüksekliği otomatik ayarla */
+    border-radius: 10px; /* Yuvarlak köşeler */
+    border: 3px solid #cccccc; /* Daha modern bir kenarlık */
+    margin: 20px auto; /* Merkezi hizalama */
+    display: block; /* Blok öğesi olarak göster, hizalanması kolay olur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge ekle */
+}
+#vizyon{
+    text-indent: 1cm;
+}
+@media (max-width: 768px) {
+    .vision {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center; /* Başlıkları ortala */
+}
+
+p, .p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6; /* Satır aralığını artırarak okunabilirlik kazandır */
+    text-align: justify; /* Metni iki yana yasla */
+    margin-bottom: 20px;
+}
+
+#vizyon {
+    text-indent: 0;
+    margin-top: 20px;
+    padding: 0 15px; /* Kenarlardan iç boşluk ekle */
+}
+
+.mb-0{
+    text-align: center;
+}
+
+/*Meeting section*/
+
+#appoinment-form{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+.form-group{
+    margin-top: 1rem;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left; /* Başlıkları ortala */
+
+    
+}
+.option-unavailable {
+    color: red;
+    font-weight: bold;
+}
+
+#footer{
+    margin-top: 9rem;
+}
+#info{
+    margin: auto;
+}
+#meet-button{
+    margin-top: 1rem;
+    text-align: center;
+    
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Emre Eroğlu</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/media/4.png" alt="LOGO" width="100px" height="75px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">AnaSayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#contact-info">İletişim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/meeting.html">Randevu Al</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- FORM -->
+  <div class="container">
+    <form id="appointment-form" action="/appointment" method="POST">
+      <div class="form-group">
+          <label for="name">Adınız:</label>
+          <input type="text" name="name" id="name" class="form-control" title="Lütfen isminizi giriniz!" required>
+      </div>
+      <div class="form-group">
+          <label for="email">E-posta:</label>
+          <input type="email" name="email" id="email" class="form-control" title="Lütfen email adresinizi giriniz" required>
+      </div>
+      <div class="form-group">
+          <label for="phone">Telefon Numarası:</label>
+          <input type="tel" name="phone" id="phone" class="form-control" pattern="[0-9]{10}" title="Lütfen başında '0' olmadan giriniz!" required>
+      </div>
+      <div class="form-group">
+          <label for="date">Randevu Tarihi:</label>
+          <input type="date" name="date" id="date" class="form-control" min="<?= date('Y-m-d'); ?>" required>
+        </div>
+      <div class="form-group">
+          <label for="time">Randevu Saati:</label>
+          <select name="time" class="form-control" id="time" required>
+              <option value="">Saat seçin</option>
+              <!-- Saat seçenekleri burada dinamik olarak eklenecek -->
+          </select>
+      </div>
+      <button type="submit" class="btn btn-primary" id="meet-button">Randevu Al</button>
+    </form>  
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-2" id="footer">
+    <div class="container">
+      <p class="mb-0">© 2024 Salon Emre Eroğlu. Tüm hakları saklıdır.</p>
+      <div class="mt-2">
+        <a href="https://www.instagram.com/salon_emreeroglu/" target="_blank" class="text-dark me-3">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>

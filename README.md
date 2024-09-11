@@ -7,7 +7,7 @@ Salon Emre Eroğlu, kullanıcıların çevrimiçi olarak randevu alabileceği bi
 ## Özellikler
 
 - **Randevu Alma**: Kullanıcılar web arayüzü üzerinden kolayca randevu alabilirler.
-- **Modern Tasarım**: Bootstrap 5.3 ile şık ve responsive tasarım.
+- **Modern Tasarım**: Bootstrap 5.0 ile şık ve responsive tasarım.
 - **Veritabanı Desteği**: Randevu bilgilerini saklamak için bir veritabanı kullanımı.
 - **Performans ve Güvenlik**: Node.js kullanılarak yüksek performans ve güvenlik sağlanmıştır.
 

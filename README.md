@@ -59,7 +59,9 @@ Proje, bir berber randevu sistemi olarak tasarlanmıştır. Kullanıcılar, HTML
 Bu adımları takip ederek projemi inceleyebilirsiniz.
 
 ## 6. Proje URL
-Projenizin canlı demo ve erişim için [URL=>](https://salonemreeroglu.onrender.com/) göz atabilirsiniz.
+
+Projenizin canlı demo ve erişim için [bu bağlantıya](https://salonemreeroglu.onrender.com/) göz atabilirsiniz.
+
 
 
       

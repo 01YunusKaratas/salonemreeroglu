@@ -2,7 +2,7 @@
 
 ## Proje Açıklaması
 
-Salon Emre Eroğlu, kullanıcıların çevrimiçi olarak randevu alabileceği bir berber web uygulamasıdır. Proje, modern web teknolojileri kullanılarak geliştirilmiştir ve kullanıcı dostu bir arayüz sunmaktadır. Projede HTML5, CSS, JavaScript, Bootstrap 5.3 ve Node.js kullanılmıştır.
+Salon Emre Eroğlu, kullanıcıların çevrimiçi olarak randevu alabileceği bir berber web uygulamasıdır. Proje, modern web teknolojileri kullanılarak geliştirilmiştir ve kullanıcı dostu bir arayüz sunmaktadır. Projede HTML5, CSS, JavaScript, Bootstrap 5.0 ve Node.js kullanılmıştır.
 
 ## Özellikler
 

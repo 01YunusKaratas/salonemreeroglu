@@ -43,7 +43,7 @@ npm install
 ### 3. Veritabanı Kurulumu
 Veritabanı için gerekli yapılandırmaları yapın. Proje içinde bir veritabanı bağlantı paketi kullanıyorsanız, aşağıdaki komutu çalıştırarak kurulumu gerçekleştirin:
 ```bash
-npm install <veritabani-paketi>
+npm install <veritabani-paketi ismi lazım>
 npm install appointment.db
 ```
 ### 4. Uygulamayı Başlatın
@@ -60,7 +60,7 @@ Bu adımları takip ederek projemi inceleyebilirsiniz.
 
 ## 6. Proje URL
 
-Projenizin canlı demo ve erişim için [bu bağlantıya](https://salonemreeroglu-7bd9.onrender.com/) göz atabilirsiniz.
+Projenizin canlı demo ve erişim için [bu bağlantıya](https://salonemreeroglu-7bd9.onrender.com/) göz atabilirsiniz ,Teşekkürler .
 
 
 

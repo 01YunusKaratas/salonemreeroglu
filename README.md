@@ -58,9 +58,7 @@ Bu komut, projeyi başlatacak ve genellikle http://localhost:3000 adresinde eri�
 Proje, bir berber randevu sistemi olarak tasarlanmıştır. Kullanıcılar, HTML5, CSS, JavaScript ve Bootstrap 5.3 ile geliştirilmiş arayüz üzerinden randevu alabilirler.
 Bu adımları takip ederek projemi inceleyebilirsiniz.
 
-## 6. Proje URL
 
-Projenizin canlı demo ve erişim için [bu bağlantıya](https://salonemreeroglu-7bd9.onrender.com/) göz atabilirsiniz ,Teşekkürler .
 
 
 
